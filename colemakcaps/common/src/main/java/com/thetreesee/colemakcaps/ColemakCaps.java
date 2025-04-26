@@ -3,18 +3,18 @@ package com.thetreesee.colemakcaps;
 import dev.architectury.event.events.client.ClientTickEvent;
 import net.minecraft.client.Minecraft;
 import org.lwjgl.glfw.GLFW;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+// import org.slf4j.Logger;
+// import org.slf4j.LoggerFactory;
 
 public class ColemakCaps {
-    private static final Logger LOGGER = LoggerFactory.getLogger("ColemakCaps");
+    // private static final Logger LOGGER = LoggerFactory.getLogger("ColemakCaps");
     private static boolean wasCapslockPressed = false;
     private static int holdTime = 0;
     private static final int INITIAL_DELAY = 10;
     private static final int REPEAT_RATE = 1;
 
     public static void init() {
-        LOGGER.info("Initializing ColemakCaps...");
+        // LOGGER.info("Initializing ColemakCaps...");
 
         ClientTickEvent.CLIENT_PRE.register(client -> {
             Minecraft mc = Minecraft.getInstance();

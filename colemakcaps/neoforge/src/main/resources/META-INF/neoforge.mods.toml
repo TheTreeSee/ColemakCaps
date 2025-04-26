@@ -6,7 +6,7 @@ license = "MIT"
 [[mods]]
 modId = "colemakcaps"
 version = "${version}"
-displayName = "colemakCaps"
+displayName = "ColemakCaps"
 authors = "TheTreeSee"
 description = '''
 Restores caps lock as backspace for the 6 Colemak backspace users in Minecraft.
