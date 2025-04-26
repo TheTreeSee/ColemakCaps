@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "colemakcaps",
+  "version": "${version}",
+  "name": "ColemakCaps",
+  "description": "Restores caps lock as backspace for the 6 Colemak backspace users in Minecraft.",
+  "authors": [
+    "TheTreeSee"
+  ],
+  "contact": {
+    "sources": "https://github.com/TheTreeSee/ColemakCaps"
+  },
+  "license": "MIT",
+  "icon": "assets/colemakcaps/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.thetreesee.colemakcaps.fabric.ColemakCapsFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.13",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "architectury": ">=13.0.8",
+    "fabric-api": "*"
+  }
+}
